@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\GÊ ANDRÉ\AppData\Local\npm-cache\_npx\c094c3349f8dd527\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\GÊ ANDRÉ\AppData\Local\npm-cache\_npx\c094c3349f8dd527\node_modules\.bin;C:\xampp\htdocs\first_app\node_modules\.bin;C:\xampp\htdocs\node_modules\.bin;C:\xampp\node_modules\.bin;C:\node_modules\.bin;C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Python311\Scripts\;C:\Python311\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\composer;C:\Users\GÊ ANDRÉ\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\GÊ ANDRÉ\AppData\Roaming\npm;C:\Users\GÊ ANDRÉ\AppData\Local\Microsoft\WindowsApps;C:\Users\GÊ ANDRÉ\AppData\Roaming\Composer\vendor\bin;C:\Users\GÊ ANDRÉ\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+
+npm manifest: 
+  {
+    "name": "awesomeproject",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "^46.0.21",
+      "expo-status-bar": "~1.4.4",
+      "react": "18.2.0",
+      "react-native": "0.71.8"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
